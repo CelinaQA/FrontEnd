@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Cinemas - Sign-up</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <fieldset>
+                <table>
+                    <colgroup>
+                        <col style="width: 100px;">
+                        <col style="width: 100px;">
+                        <col style="width: 100px;">
+                        <col style="width: 100px;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>QA</th>
+                            <th>
+                                <a href="./HomePage.html">
+                                    Home
+                                </a>
+                            </th>
+                            <th>
+                                <a href="./SchedulePage.html">
+                                    Schedule
+                                </a>
+                            </th>
+                            <th>
+                                <a href="./SignUpPage.html">
+                                    Sign-up
+                                </a>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </fieldset>
+        </nav>
+    </header>
+    <main>
+        <table width=100%>
+            <thead>
+                <tr>
+                    <th>
+                        <img src="" alt="Image">
+                    </th>
+                </tr>
+            </thead>
+        </table>
+
+        <section>
+            <form action="POST">
+                <label for="">Title *</label>
+                <input list="titles">
+                <datalist id="titles">
+                    <option value="Miss"></option>
+                    <option value="Mrs"></option>
+                    <option value="Ms"></option>
+                    <option value="Mr"></option>
+                </datalist>
+                <br>
+                <label for="">First Name *</label>
+                <input type="text" name="" id="">
+                <br>
+                <label for="">Last Name *</label>
+                <input type="text" name="" id="">
+                <br>
+                <label for="">Email *</label>
+                <input type="email" name="" id="">
+                <br>
+                <label for="">Date of Birth</label>
+                <input type="date" name="" id="">
+                <br>
+                <label for="">Phone Number</label>
+                <input type="tel" name="" id="">
+                <br>
+                <input type="radio" name="gender" id="female">Female</input>
+                <br>
+                <input type="radio" name="gender" id="male">Male</input>
+                <br>
+                <button type="submit">Sign me up!</button>
+            </form>
+        </section>
+
+    </main>
+    <hr>
+    <footer>
+        &copy; Copyright QA Cinemas 2018
+    </footer>
+</body>
+
+</html>
