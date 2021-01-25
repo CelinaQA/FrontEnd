@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Organise information, user input -->
+    <!-- Method = How the information is passed to a server -->
+    <!-- GET = Arguments are appended to the URL of the request -->
+    <!-- POST = Information is sent in the body of the request -->
+    <form action="" method="GET">
+        <label>Enter your username:</label>
+        <input name="username" type="text" />
+        <br>
+        <label>Enter your password:</label>
+        <input name="pw" type="password">
+        <br>
+        <label>Enter your email:</label>
+        <input type="email" name="email">
+        <br>
+        <label>Enter your phone number:</label>
+        <input type="tel" name="tel" pattern="[0-9]{11-13}">
+        <br>
+        <label>URL of company:</label>
+        <input type="url" name="url" value="https://www.qa.com">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender">Male</input>
+        <input type="radio" id="female" name="gender">Female</input>
+        <input type="radio" id="pnts" name="gender">Prefer not to say</input>
+        <br>
+        <label for="">What food do you like?</label>
+        <input type="checkbox">Chicken</input>
+        <input type="checkbox">Cake</input>
+        <input type="checkbox">Vegetables</input>
+        <br>
+        <label for="">How old are you?</label>
+        <input type="number" min="0"></input>
+        <br>
+        <label for="">DOB:</label>
+        <input type="date">
+        <br>
+        <input type="file" name="" id="">
+        <br>
+        <input type="range" name="" id="">
+        <br>
+        <label for="">Comments:</label>
+        <textarea name="" id="" cols="50" rows="10">
+            Feedback?
+        </textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Form</button>
+
+    </form>
+</body>
+
+</html>
