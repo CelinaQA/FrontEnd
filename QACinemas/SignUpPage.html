@@ -43,43 +43,81 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md">
-                        <form method="POST">
-                            <div class="form-group">
-                                <label for="">Title *</label>
-                                <input list="titles" class="form-control">
-                                <datalist id="titles">
-                                    <option value="Miss"></option>
-                                    <option value="Mrs"></option>
-                                    <option value="Ms"></option>
-                                    <option value="Mr"></option>
-                                </datalist>
+                        <div class="card">
+                            <h3 class="card-header">Register</h3>
+                            <div class="card-body">
+                                <form method="POST">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <select class="form-control">
+                                                    <option>Title...</option>
+                                                    <option>Miss</option>
+                                                    <option>Mrs</option>
+                                                    <option>Ms</option>
+                                                    <option>Mr</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <label for="" class="sr-only">First Name</label>
+                                                <input type="text" class="form-control" placeholder="First name">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <label for="" class="sr-only">Last Name</label>
+                                                <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label for="" class="sr-only">Email</label>
+                                                <input type="email" name="" id="" class="form-control"
+                                                    placeholder="Email">
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label for="" class="col-form-label">Date of Birth:</label>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <input type="date" name="" id="" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="sr-only">Phone Number</label>
+                                        <input type="tel" name="" id="" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="col-form-label">Gender:</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Radios"
+                                                id="exampleRadios1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Male
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Radios"
+                                                id="exampleRadios2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Female
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="Radios"
+                                                id="exampleRadios3">
+                                            <label class="form-check-label" for="exampleRadios3">
+                                                Prefer not to say
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-block">Sign me up!</button>
 
-                                <label for="">First Name *</label>
-                                <input type="text" name="" id="" class="form-control">
-
-                                <label for="">Last Name *</label>
-                                <input type="text" name="" id="" class="form-control">
-
-                                <label for="">Email *</label>
-                                <input type="email" name="" id="" class="form-control">
-
-                                <label for="">Date of Birth</label>
-                                <input type="date" name="" id="" class="form-control">
-
-                                <label for="">Phone Number</label>
-                                <input type="tel" name="" id="" class="form-control">
-
-                                <label for="">Gender:</label>
-                                <select class="form-control">
-                                    <option>Select an option</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Prefer not to say</option>
-                                </select>
-
-                                <button type="submit" class="btn btn-success">Sign me up!</button>
+                                </form>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
