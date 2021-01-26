@@ -1,11 +1,14 @@
+/* Select by element id */
 #id1{
     background-color: darkgrey;
 }
 
+/* Select by element class */
 .Lorem{
     background-color: darksalmon;
 }
 
+/* Select by element */
 body{
     text-decoration: underline;
 }

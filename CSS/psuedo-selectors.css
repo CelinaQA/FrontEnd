@@ -1,0 +1,36 @@
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: palegreen;
+}
+
+a:hover{
+    color:salmon;
+}
+
+a:active{
+    color: royalblue;
+}
+
+/* Looks for an exact match */
+img[src="../Resources/Raccoon.jpg"]{
+    width: 100px;
+    height: 100px;
+}
+
+/* find an element that ends with a specific value  = $=*/
+[src$=".jpg"]{
+    height:400px;
+}
+
+/* Starts with = ^= */
+a[href^="mailto"]{
+    color:mediumvioletred;
+}
+
+/* Contains = *= */
+[id*="stuff"]{
+    color:orangered;
+}
