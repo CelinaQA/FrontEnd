@@ -1,0 +1,17 @@
+.p1{
+    border: 1px solid black;
+}
+
+.p2{
+    border-bottom: 1px solid red;
+}
+
+.p3{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.p4{
+    background-color: rgb(176, 199, 241);
+    border-left: 3px solid rgb(21, 109, 209);
+}
